@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/png" href="http://bheighton.slccwebdev.com/favicon.png">
+  <title>Ben Heighton | Contact Me</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="http://bheighton.slccwebdev.com">Home</a>
+      <a href="http://bheighton.slccwebdev.com/about/">About</a>
+      <a href="http://bheighton.slccwebdev.com/portfolio/">Portfolio</a>
+      <a href="http://bheighton.slccwebdev.com/contact/">Contact</a>
+    </nav> 
+  </header>
+    <p>Based in Salt Lake City, Utah. I am available for freelance work.</p>
+    <h1>Let's create something!</h1><!--Make link to email me.-->
+    <!--Contact Form-->
+    <form action="thankyou.html" method="post" target="_self">
+      <!--Contact information-->
+      <div>
+        <label for="name">What is your name?</lab><br>
+        <br>
+        <input type="text" id="name"  name="name"><br>
+        <br>
+        <label for="email">What is your email address?</label><br>
+        <br>
+        <input type="email" id="email" name="email"><br>
+      </div>
+      <br>
+      <hr>
+      <br>
+      <!--Project information-->
+      <label for="project">What type of project do you need me to complete?</label><br>
+      <br>
+        <input type="radio" id="album" name="project" value="design">
+        <label for="album">Album Cover/Record Label</label><br>
+        <input type="radio" id="package" name="project" value="design">
+        <label for="package">Packaging Design</label><br>
+        <input type="radio" id="merch" name="project" value="design">
+        <label for="merch">Apparel/Merch Design</label><br>
+        <input type="radio" id="logo" name="project" value="design">
+        <label for="logo">Logo Design/Brand Identity</label><br>
+        <input type="radio" id="website" name="project" value="design">
+        <label for="website">Website</label><br>
+        <input type="radio" id="promo" name="project" value="design">
+        <label for="promo">Advertising/Promotional</label><br>
+      <br>
+      <!--Scope-->
+      <label for="scope">What is the scope of my involvement in your project?</label><br>
+      <br>
+        <input type="radio" id="fullservice" name="project" value="design">
+        <label for="fullservice">Full Service (album art, print layout, promotional graphics)</label><br>
+        <input type="radio" id="gSupport" name="project" value="design">
+        <label for="gSupport">Graphics Support (graphics to be used in larger project, collaboration)</label><br>
+        <input type="radio" id="pSupport" name="project" value="design">
+        <label for="pSupport">Production Support (production ready art files)</label><br>
+        <input type="radio" id="simple" name="project" value="design">
+        <label for="simple">I just need an image (digital asset)</label><br>
+      <br>
+      <!--Goal-->
+      <label for="goal">What goals are you looking to achieve with this project?</label><br>
+      <br>
+      <textarea type="text" id="goal" name="goal" rows="3" cols="40">What are we going to do tonight, Brain?</textarea><br>
+      <br>
+      <!--Budget-->
+      <label for="budget">What is your budget for this project?</label><br>
+      <br>
+        <input type="radio" id="big" name="budget">
+        <label for="big">Big Plan</label><br>
+        <input type="radio" id="big" name="budget">
+        <label for="medium">Room to Grow</label><br>
+        <input type="radio" id="medium" name="budget">
+        <label for="small">Small Fish</label><br>
+        <input type="radio" id="none" name="budget">
+        <label for="none">DIY</label><br>
+      <br>
+      <!--Deadline-->
+      <label for="deadline">When do you need this project completed?</label><br>
+      <br>
+      <input type="date" id="deadline" name="deadline"><br>
+      <br>
+      <!--Other information-->
+      <label for="knowledge">Is there anything else I should know?</label><br>
+      <br>
+      <textarea type="text" id="knowledge" name="knowledge" rows="3" cols="40">You are now about to witness the strength of street knowledge.</textarea><br>
+      <br>
+      <!--Submit-->
+      <button type="submit">Send it.</button><br>
+      <hr>
+    </form>
+<footer>&copy;2024 | Ben Heighton</footer>
+</body>
+</html> 
