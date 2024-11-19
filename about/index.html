@@ -1,34 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link rel="icon" type="image/png" href="http://bheighton.slccwebdev.com/favicon.png">
     <title>Ben Heighton | About</title>
     <meta name="author" content="Ben Heighton">
     <meta name="description" content="Professional Resume">
     <meta name="keywords" content="graphic design, resume, creativity, CV, web, technology, precision, attention to detail, innovation, artist, print, printing, web, ben heighton">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--font embedding-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
-<body style="background-color: #dddddd">
+<body>
     <header>
+        <a href="http://bheighton.slccwebdev.com"><img src="../BH_Logo_2024_RGB_head.png" alt="Ben Heighton Graphic Design Logo" id="header-logo"></a>
         <nav>
-          <a href="http://bheighton.slccwebdev.com">Home</a>
-          <a href="http://bheighton.slccwebdev.com/about/">About</a>
-          <a href="http://bheighton.slccwebdev.com/portfolio/">Portfolio</a>
-          <a href="http://bheighton.slccwebdev.com/contact/">Contact</a>
-        </nav> 
+            <ul id="nav_links">
+            <li><a href="http://bheighton.slccwebdev.com">Home</a></li>
+            <li><a href="../about/index.html">About</a></li>
+            <li><a href="../portfolio/index.html">Portfolio</a></li>
+            <li><a href="../contact/index.html">Contact</a></li>
+            </ul>
+          </nav> 
       </header>
     <!--Intro-->
-    <img src="http://bheighton.slccwebdev.com/BH_Logo_2024_Edit_2-01.png" alt="Ben Heighton Graphic Design Logo" width="200">
+    <div class="contain">
+
     <h1>Creativity applied with precision.</h1>
-    <p>Precision-focused artist with expertise in graphic design, printing, and web technologies. 
+   
+        <p id="intro">I am a precision-focused artist with expertise in graphic design, printing, and web technologies.
     Skilled in both creative and technical problem-solving with a strong aptitude for innovation and 
     a passion for developing impactful designs.</p>
-    <hr>
+
     <!--section-->
-    <h2>Experience</h2>
+    <h2>Experience</h2><hr class="header2">
+        <!--
         <div>
+            <h3>Print Production Manager</h3>
+            <h4>Identity Graphx | 2024-Present</h4>
+        </div>        
+        <ul>
+            <li>Duty list goes here.</li>
+        </ul>
+        -->
+        <div class="exp_title">
             <h3>Prepress Specialist</h3>
             <h4>Calyx Containers | 2022-2024</h4>
         </div>
@@ -44,22 +63,22 @@
             <li>Managed variable data printing file setup and execution.</li>
             <li>Contributed to team alignment and project updates through bi-weekly departmental meetings.</li>
         </ul>
-        <div>
-            <h3>Quality Control/Finishing</h3>
+        <div class="exp_title">
+            <h3>Finishing & Quality Control</h3>
             <h4>Vision Graphics | 2021-2022</h4>
         </div>
         <ul>
             <li>Inspected printed materials for accuracy in size, finish, color, and quantity.</li>
             <li>Assembled and packaged final products for delivery.</li>
         </ul>
-        <div>
+        <div class="exp_title">
             <h3>Production Artist</h3>
             <h4>Cricut | 2021</h4>
         </div>
         <ul><li>Processed vector art to create clean cut and draw paths for SVG output.</li>
             <li>Created tracking and kerning data for fonts.</li>
         </ul>
-        <div>
+        <div class="exp_title">
             <h3>Production Artist</h3>
             <h4>Design-Ink | 2015-2020</h4>
         </div>
@@ -69,7 +88,7 @@
             <li>Conducted press checks for accuracy and quality assurance.</li>
             <li>Oversaw accuracy in color separations, print orders, sizing & namedrops.</li>
         </ul>
-        <div>
+        <div class="exp_title">
             <h3>Press Operator</h3>
             <h4>Design-Ink | 2015</h4>
         </div>
@@ -78,11 +97,11 @@
             <li>Reviewed design specifications and order details for accuracy.</li>
             <li>Inspected prints for quality assurance and maintained equipment.</li>
         </ul>
-        <div>
-            <h3>Artist and Designer</h3>
-            <h4>Freelance Design Services | 2015-Present</h4>
+        <div class="exp_title">
+            <h3>Artist & Designer</h3>
+            <h4>Freelance Design | 2015-Present</h4>
         </div>
-        <ul><li>Created custom artwork for diverse clients, including:</li>
+        <p id="freelance">Creating custom artwork for select clients. Projects include:</p>
             <ul>
                 <li>Over 50 album designs, including front cover art, labels, and sleeve layouts.</li>
                 <li>200+ advertising and sales graphics for social media and email campaigns.</li>
@@ -91,25 +110,25 @@
                 <li>Merchandise designs, including apparel and promotional items.</li>
                 <li>Logo design, brand development, event posters, and promotional flyers.</li>
             </ul>
-        </ul>
+        
     <!--section-->
-    <h2>Education</h2>
-        <div>
-            <h3>Web Development Certificate (in progress)</h3>  
-            <h4>Salt Lake Tech (SLCC) | 2025</h4>
+    <h2>Education</h2><hr class="header2">
+        <div class="exp_edu">
+            <h3>Web Development Certificate</h3>  
+            <h4 class="exp_edu">Salt Lake Tech (SLCC) | 2025</h4>
         </div>       
-        <div>
+        <div class="exp_edu">
             <h3>Associate of Applied Science in Visual Art & Graphic Design</h3>
-            <h4>Salt Lake Community College | 2015</h4>
+            <h4 class="exp_edu">Salt Lake Community College | 2015</h4>
         </div>
     <!--section-->
-    <h2>Awards</h2>
-        <div>
+    <h2>Awards</h2><hr class="header2">
+        <div class="exp_edu">
             <h3>Judge's Award of Merit; SLCC Student Art Showcase</h3>
-            <h4>Salt Lake Community College | 2015</h4>
+            <h4 class="exp_edu">Salt Lake Community College | 2015</h4>
         </div>
     <!--section-->
-    <h2>Skills</h2>
+    <h2>Skills</h2><hr class="header2">
         <ul>
             <li>Critical Thinking</li>
             <li>Creative Problem Solving</li>
@@ -122,7 +141,7 @@
             <li>Research and Data Analysis</li>
         </ul>
     <!--section-->
-    <h2>Techical Skills</h2>
+    <h2>Technical Skills</h2><hr class="header2">
         <ul>
             <li>Database & File Management</li>
             <li>Content Management</li>
@@ -132,7 +151,7 @@
             <li>Press and machine operation</li>
         </ul>
     <!--section-->
-    <h2>Art & Design Skills</h2>
+    <h2>Art & Design Skills</h2><hr class="header2">
         <ul>
             <li>Apparel Design</li>
             <li>Product Design</li>
@@ -147,13 +166,13 @@
             <li>Typography</li>
             <li>Layout</li>
             <li>Color Theory</li>
-            <li>Web Design, HTML & CSS</li>
+            <li>Web Development</li>
             <li>UI/UX</li>
             <li>E-Commerce</li>
             <li>Java Script</li>
         </ul>
     <!--section-->
-    <h2>Software</h2>
+    <h2>Software</h2><hr class="header2">
         <ul>
             <li>Adobe Creative Suite</li>
             <li>Asana</li>
@@ -168,8 +187,9 @@
             <li>Visual Studio Code</li>
         </ul>
 
-    <h1><a href="http://bheighton.slccwebdev.com/portfolio">Visit my Portfolio!</h1></a>
+    <h1><a href="../portfolio/index.html">Visit my Portfolio!</h1></a><br><br>
 
-<footer>&copy;2024 | Ben Heighton</footer>
+</div>
+    <footer><p id="footer">&copy;2024 | Ben Heighton</p></footer>
 </body>
 </html> 

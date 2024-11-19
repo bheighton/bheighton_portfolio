@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
   <link rel="icon" type="image/png" href="http://bheighton.slccwebdev.com/favicon.png">
+  <script src="../js/script.js" defer></script>
   <title>Ben Heighton | 7"s</title>
   <meta name="author" content="Ben Heighton">
   <meta name="description" content="Graphic Design Portfolio, 7 Inch Records">
@@ -9,19 +11,59 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <!--font embedding-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  
 </head>
-<body style="background-color: #dddddd">
+<body>
   <header>
+    <a href="http://bheighton.slccwebdev.com"><img src="../BH_Logo_2024_RGB_head.png" alt="Ben Heighton Graphic Design Logo" id="header-logo"></a>
+    <h1 class="page-title">7"s</h1>
     <nav>
-      <a href="http://bheighton.slccwebdev.com">Home</a>
-      <a href="http://bheighton.slccwebdev.com/about/">About</a>
-      <a href="http://bheighton.slccwebdev.com/portfolio/">Portfolio</a>
-      <a href="http://bheighton.slccwebdev.com/contact/">Contact</a>
-    </nav> 
+        <ul id="nav_links">
+        <li><a href="http://bheighton.slccwebdev.com">Home</a></li>
+        <li><a href="../about/index.html">About</a></li>
+        <li><a href="../portfolio/index.html">Portfolio</a></li>
+        <li><a href="../contact/index.html">Contact</a></li>
+        </ul>
+      </nav> 
   </header>
-  7" Labels
-  <!--Projects-->
-  <img src="images/7_inch/LL_MM_SATCT_7_Combo_Mockup.png" alt="Lollypop Lorry - You're Wondering Now / Jamaica Ska - 45 Mockup" width="90%">
+  <!--carousel-->
+  <section aria-label="7 Inch Records">
+    <div class="carousel" data-carousel>
+      <button class="carousel-button prev" data-carousel-button="prev">&lsaquo;</button>
+      <button class="carousel-button next" data-carousel-button="next">&rsaquo;</button>
+  <ul class="carousel-slides" data-slides>
+    <li class="slide" data-active>
+      <img src="images/7_inch/LL_WN_SC_7_Combo_Mockup.png" alt="Lollypop Lorry - You're Wondering Now / Jamaica Ska - 45 Mockup">
+    </li>
+    <li class="slide">
+      <img src="images/7_inch/TF_TC_WCMTM_7_Combo_Mockup.png" alt="The Freecoasters - This Christmas / What Christmas Means To Me - 45 Mockup">
+    </li>
+    <li class="slide">
+      <img src="images/7_inch/CVTLN_JRD_FOY_7_Combo_Mockup.png" alt="Count Valentine and The Love Notes - Jumpin' at the Red Door / Fifth of You - 45 Mockup">
+    </li>
+    <li class="slide">
+      <img src="images/7_inch/TS_RTB_TSB_WRP_Split_7_Combo_Mockup.png" alt="The Skapones - Ring The Bells / The Scotch Bonnets - Winter Reggae Party - 45 Mockup">
+    </li>
+    <li class="slide">
+      <img src="images/7_inch/LL_MM_SATCT_7_Combo_Mockup.png" alt="Lollypop Lorry - Magic Moments / Skankin' Around The Christmas Tree - 45 Mockup">
+    </li>
+    <li class="slide">
+      <img src="images/7_inch/SC_IDW_GWC_7_Combo_Mockup.png" alt="Susan Cadogan - I Don't Want Anybody But You / The Girl Who Cried - 45 Mockup">
+    </li>
+  </ul>
+  </div>
+</section>
+
+  <div class="contain">
+
+
+<!--Projects-->
+<!--  
+  <img src="images/7_inch/LL_WN_SC_7_Combo_Mockup.png" alt="Lollypop Lorry - You're Wondering Now / Jamaica Ska - 45 Mockup" width="90%">
   <h1>Lollypop Lorry</h1>
   <h2>You're Wondering Now / Jamaica Ska</h2>
   <h3>2023</h3>
@@ -59,7 +101,10 @@
   <h1>Susan Cadogan</h1>
   <h2>I Don't Want Anybody But You / The Girl Who Cried</h2>
   <h3>2018</h3>
+-->
 
-<footer>&copy;2024|Ben Heighton</footer>
+
+</div>
+  <footer><p id="footer">&copy;2024 | Ben Heighton</p></footer>
 </body>
 </html> 
